@@ -15,4 +15,4 @@
 
 <p>Ograničenje API requestova na 1000 je napravljeno pomoću middlewarea 'IsTokenExceeded'</p>
 
-<p>Logika dohvaćanja se zbog jednostavnosti nazali unutar ruta u routes/api.php (kontroleri nisu korišteni)</p>
+<p>Logika dohvaćanja se zbog jednostavnosti nalazi unutar ruta u routes/api.php (kontroleri nisu korišteni)</p>
