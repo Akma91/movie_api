@@ -4,9 +4,11 @@ Registracija i login za dobiti/učitati token:
 
 API rute:
 
-api/movies/title/{title}
+<ul>
+<li>api/movies/title/{title}<l/i>
 api/movie/{reference_code}
 api/movies/category/{category}
+<ul>
 
 API token naziva 'api_token' se šalje POST metodom kao parametar forme
 
