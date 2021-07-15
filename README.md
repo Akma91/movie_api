@@ -1,7 +1,7 @@
 <h3>Registracija i login za dobiti/učitati token:</h3>
 <ul>
 <li>/dashboard</li>
-<ul>
+</ul>
 
 <h3>API rute:</h3>
 
@@ -9,7 +9,7 @@
 <li>api/movies/title/{title}</li>
 <li>api/movie/{reference_code}</li>
 <li>api/movies/category/{category}</li>
-<ul>
+</ul>
 
 <p>API token naziva 'api_token' se šalje POST metodom kao parametar forme</p>
 
