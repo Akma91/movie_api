@@ -1,9 +1,9 @@
-<h3>Registracija i login za dobiti/učitati token:</h3>
+<h4>Registracija i login za dobiti/učitati token:</h4>
 <ul>
 <li>/dashboard</li>
 </ul>
 
-<h3>API rute:</h3>
+<h4>API rute:</h4>
 
 <ul>
 <li>api/movies/title/{title}</li>
