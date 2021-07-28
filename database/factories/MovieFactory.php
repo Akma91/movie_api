@@ -26,7 +26,6 @@ class MovieFactory extends Factory
         return [
             'reference_code' => Str::random(10),
             'title' => $this->faker->sentence($nbWords = 2, $variableNbWords = true),
-            'category' => Arr::random(array('comedy', 'horror', 'drama')),
             'image' => $this->faker->imageUrl($width, $height, 'nightlife') , // password
             'production_year' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
         ];

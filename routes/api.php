@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Movie;
+use App\Models\Category;
 use App\Http\Middleware\IsTokenExceeded;
 
 /*
@@ -24,6 +25,7 @@ Route::middleware(['auth:api', IsTokenExceeded::class])->group(function () {
         return $movies->get();
 
     });
+    
 
 
     Route::post('movie/{movie:reference_code}', function (Movie $movie) {
@@ -39,6 +41,26 @@ Route::middleware(['auth:api', IsTokenExceeded::class])->group(function () {
     });
 
 
+    Route::get('category/{category}', function (Category $category) {
+
+        dd($category);
+        /* return $movies->get(); */
+    
+    });
+
+
+    Route::get('category/{category}', function (Category $category) {
+
+        return $category->movies;
+
+    
+    });
+
+
+
 
 });
+
+
+
 
